@@ -5,8 +5,10 @@
     <title>FLORERIA</title>
     
     <link rel="stylesheet" href="styles/styles.css" type="text/css"/>
-    <link rel="stylesheet" href="styles/slideshow.css" type="text/css"/>
     
+    <link rel="stylesheet" href="styles/slider.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="css/fonts.css" type="text/css"/>
     
 </head>
 <body>
@@ -32,20 +34,12 @@
     </div>
 
     
-    <div id="slideshow">
-        <ul id="contentSlide">
-            <li id="one"><img src="images/paisaje.jpg"> </li>
-            <li id="two"><img src="images/diente.jpg"> </li>
-            <li id="three"><img src="images/ABC.jpg"> </li>
-        </ul>
-    </div> 
-    
-    <div id="uno" class="nav">
-        <ul id="navigation">
-            <li><a href="#one">1</a></li>
-            <li><a href="#two">2</a></li>
-            <li><a href="#three">3</a></li>
-        </ul>
+    <div class="slideshow">
+        <div class="contentSlide">
+            <img src="images/slider/paisaje.jpg">
+            <img src="images/slider/diente.jpg">
+            <img src="images/slider/ABC.jpg">
+        </div>
     </div> 
     
     <div id="uno" class="contenido">
@@ -64,5 +58,15 @@
     
     </footer>
 
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+    <script >
+    $(function(){
+      $(".contentSlide").slidesjs({
+
+      });
+    });
+    </script>
+    
 </body>
 </html>

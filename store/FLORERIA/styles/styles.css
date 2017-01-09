@@ -48,7 +48,7 @@ header {
 
 #first_ul {
     display: flex;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     justify-content: center;
     list-style: none;
@@ -57,35 +57,7 @@ header {
 #first_ul li {
     line-height: 50px;
     padding: 0px 40px 0px 40px; 
-    max-width: 100%;
-}
-
-a {
-    color: black;
-    border: none;
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 1.3em
-}
-
-a:hover {
-    color: azure;
-    text-shadow: 3px 3px 1px gray;
-}
-
-#slideshow {
-    margin: auto;
-    width: 80%;
-}
-
-#contentSlide {
-    list-style: none;
-    padding-top: 10px;
-}
-
-#contentSlide li img{
     width: 100%;
-    height: auto;
 }
 
 .contenido {
