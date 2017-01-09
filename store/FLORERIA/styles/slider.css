@@ -1,8 +1,8 @@
 .slideshow {
     margin: 20px auto;
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
-    //overflow: hidden;
+    overflow: hidden;
 }
 
 .contentSlide {
@@ -14,13 +14,24 @@
 }
 
 .slidesjs-pagination {
-    background-color: darkgray;
+    background-color: #424242;
     list-style: none;
     overflow: hidden;
 }
 
 .slidesjs-pagination li{
     float: left;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.slidesjs-pagination li a:hover {
+    background: #000;
 }
 
 .contentSlide .active {

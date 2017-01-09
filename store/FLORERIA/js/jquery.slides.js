@@ -117,14 +117,14 @@
         prevButton = $("<a>", {
           "class": "slidesjs-previous slidesjs-navigation",
           href: "#",
-          title: "Previous",
-          text: "Previous"
+          title: "Anterior",
+          text: "Anterior"
         }).appendTo($element);
         nextButton = $("<a>", {
           "class": "slidesjs-next slidesjs-navigation",
           href: "#",
-          title: "Next",
-          text: "Next"
+          title: "Siguiente",
+          text: "Siguiente"
         }).appendTo($element);
       }
       $(".slidesjs-next", $element).click(function(e) {
@@ -141,14 +141,14 @@
         playButton = $("<a>", {
           "class": "slidesjs-play slidesjs-navigation",
           href: "#",
-          title: "Play",
-          text: "Play"
+          title: "Iniciar",
+          text: "Iniciar"
         }).appendTo($element);
         stopButton = $("<a>", {
           "class": "slidesjs-stop slidesjs-navigation",
           href: "#",
-          title: "Stop",
-          text: "Stop"
+          title: "Detener",
+          text: "Detener"
         }).appendTo($element);
         playButton.click(function(e) {
           e.preventDefault();
