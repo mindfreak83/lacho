@@ -17,33 +17,25 @@ header {
 #cabecero {
     width: 100%;
     display: flex;
-}
-
-#cabecero #logo {
-    max-width: 20%;
-    height: auto;
-}
-
-#cabecero #next {
-    float: right;
-    max-width: 30%;
-    opacity: 0.3;
+    background-color: black;
+    color: white;
 }
 
 #cabecero h1 {
-    max-width: 50%;
+    max-width: 60%;
     line-height: 70px;
-    padding-right: 100px;
     letter-spacing: 10px;
-    font-family: sans-serif;
-    font-weight: 900;
-    text-align: left;
+    font-family: 'Dancing Script', bold;
+    font-size: 3em;
+    padding-left: 100px;
+    text-shadow: 5px 5px 5px darkgray;
 }
 
 #botonera {
     max-width: 100%;
-    height: 50px;
+    height: 30px;
     background-color: lightgray;
+    font-family: 'Bungee Shade', cursive;
 }
 
 #first_ul {
@@ -55,16 +47,61 @@ header {
 }
 
 #first_ul li {
-    line-height: 50px;
-    padding: 0px 40px 0px 40px; 
+    line-height: 30px;
+    padding: 0px 20px 0px 50px; 
     width: 100%;
 }
 
 .contenido {
-    margin: auto;
-    max-width: 90%;
-    height: 600px;
+    margin: 0 auto;
+    width: 90%;
+    height: 300px;
     border: 2px solid;
+    margin-bottom: 10px;
+    position: relative;
+    //background-size: cover;
+}
+
+#uno {
+    background-image: url("/images/regalo/3.jpg");
+}
+
+#dos {
+    background-image: url("/images/boda/3.jpg");
+}
+
+#tres {
+    background-image: url("/images/xv/3.jpg");
+}
+
+p {
+  height: 30px;
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small{
+    opacity: 0;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
 }
 
 footer {
@@ -72,4 +109,13 @@ footer {
     max-width: 100%;
     height: 200px;
     background-color: azure;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
 }

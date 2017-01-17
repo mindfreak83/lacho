@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <title>FLORERIA</title>
     
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet">
+    
     <link rel="stylesheet" href="styles/styles.css" type="text/css"/>
     
     <link rel="stylesheet" href="styles/slider.css" type="text/css"/>
     
-    <link rel="stylesheet" href="css/fonts.css" type="text/css"/>
+    <link rel="stylesheet" href="fonts.css" type="text/css"/>
     
 </head>
 <body>
     
     <header>
         <div id="cabecero">
-            <img id="logo" src="images/otros/20739.png">
             <h1 id="titulo">FLORERIA</h1>
-            <img id="next" src="images/otros/linea.jpg">
         </div>    
     </header>
 
@@ -43,19 +45,36 @@
     </div> 
     
     <div id="uno" class="contenido">
-    
+        <p>
+            REGALOS
+            <small>
+            sempiternum an incididunt ex nam sed illum ingeniis, consequat irure fabulas 
+            doctrina sed ad si nisi tamen magna, multos ex ut aute iudicem in quo eu 
+            arbitrantur. Deserunt legam de tempor arbitrantur, legam do vidisse qui enim. </small>
+        </p>
     </div>
     
-    <div id="dos" class="contenido">
-    
+    <div id="dos" class="contenido show-description">
+        <p>
+            BODA
+            <small>
+            sempiternum an incididunt ex nam sed illum ingeniis, consequat irure fabulas 
+            doctrina sed ad si nisi tamen magna, multos ex ut aute iudicem in quo eu 
+            arbitrantur. Deserunt legam de tempor arbitrantur, legam do vidisse qui enim. </small>
+        </p>
     </div>
     
     <div id="tres" class="contenido">
-    
+       <p>
+           XV AÑOS 
+           <small>
+            sempiternum an incididunt ex nam sed illum ingeniis, consequat irure fabulas 
+            doctrina sed ad si nisi tamen magna, multos ex ut aute iudicem in quo eu 
+            arbitrantur. Deserunt legam de tempor arbitrantur, legam do vidisse qui enim. </small>
     </div>
     
     <footer id="pie_pagina">
-    
+    <a><i class="fa fa-home fa-fw" aria-hidden="true"></i></a>
     </footer>
 
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -67,7 +86,7 @@
       active: true,
         // [boolean] Generate the play and stop buttons.
         // You cannot use your own buttons. Sorry.
-      effect: "slide",
+      effect: "fade",
         // [string] Can be either "slide" or "fade".
       interval: 3000,
         // [number] Time spent on each slide in milliseconds.
@@ -81,6 +100,10 @@
         // [number] restart delay on inactive slideshow
     }
       });
+    });
+        
+    $('.contenido').on('click', function() {
+    $(this).toggleClass('show-description');
     });
     </script>
     
