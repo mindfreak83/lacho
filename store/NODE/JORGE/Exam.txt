@@ -1,0 +1,56 @@
+1.- What data types are primitives in JavaScript?
+	A = The primitives data in JS are number, strings, boolean, null and undefined.
+
+2.- What is a callback and when is it used?
+	A = The callback is the use of functions as a regular variables as arguments in another function and 
+	    it's used when we pass a function to another function as an argument and expect the execution.
+
+3.- What is the call stack?
+	A = The callstack is the pile where are stored all the functions call, this pile has a limit and the stack may overflow.
+
+4.- What is the event loop?
+	A = The event loop is a pile where are adding all the actions must be executed.
+
+5.- What is the current version of EcmaScript?
+	A = Actually EcmaScript is in the version 6 already.
+
+6.- What is the difference between an array and an object?
+	A = An array can be accessed to his values through index and the objects can be accessed through properties.
+
+7.- What is an arrow function? What is the difference vs a anonymous function?
+	A = The arrow function is always an anonymus function but in a short expression.
+
+8.- What is type coercion?
+	A = The type coercion is when we take a variable of one type and convert his value to another type during an operation or evaluation.
+
+9.- What are the differences between var and let and when do you use one or the other?
+	A = Var and let we can use it to declarate variables but we use let to declares a block scope variable.
+
+10.- what is the difference between == and ===? When do you use one or the other?
+	A = The difference is the comparison when we use "==" converts the operands if they are not the same type. When we use "===" the operator returns
+	    true if the operands are extrictly equal with no type conversion.
+Solve the following problems:
+
+Find the first nonrepeated character.
+
+Write an efficient function to find the first nonrepeated character in a string. For instance, the first nonrepeated character in "total" is 'o' and the first 
+nonrepeated character in "teeter" is 'r'.
+----
+Ladder
+(No loops allowed)
+Write a routine that accept an integer as a parameter and prints a ladder with the same number of steps  using '#' character to represent the steps. Example: 
+ladder(4) //prints:
+#
+##
+###
+####
+-----
+Permutations of a string
+(Recursion must be used)
+
+Implement a routine that prints all possible ordering of a string. In other words, print all permutations that use all the characters from the original string. 
+For example, given the string "hat", your fiction should print the strings "tha", "aht", "tah", "ath", "hta", and "hat". Treat each character in the input as a 
+distinct character, even if it is repeated. Given the string "aaa", your routine should print "aaa" six times. You may print the permutations in any order you 
+chose.
+[02:14:24 p.m.] Sergio rivera: En el segundo problema donde dice "with the same number of steps" debería decir: "with the same number of steps as the value of 
+the input"

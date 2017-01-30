@@ -1,0 +1,35 @@
+Functions for all these:
+
+Names of the students who are forever-alone (no friends).Done
+Names of the students who are super popular and have 4 or more friends. Done
+Names of students taking HTML course. Done
+Names of students taking CSS course.  Done
+Names of students taking Javascript course. Done
+Names of students taking PHP course.  Done.
+Names of students taking Ruby course. Done.
+Names of students taking Java course. Done.
+Last names of the students who are forever-alones (no friends). Done.
+Full name of the students who are super popular and have 4 or more friends. Done
+Ages of students taking HTML course. Done.
+Phone numbers of students taking CSS course. Done.
+Full name of students taking any course related to a backend technology (Javascript, PHP, Ruby, Java). Done.
+Full name of students taking any course related to a frontend technology (Javascript, HTML, CSS). Done.
+Average age of students taking any of these courses: HTML, CSS, Javascript. Done.
+Average grade of students taking any of these courses: HTML, CSS, Javascript. Done.
+Average grade of the students who are forever-alone (no friends). Done.
+Average of ages of students. Done
+Percentage of active students and inactive students. Done.
+Get the ids of the students with blue eyes. Done.
+Get the first name of the students with green eyes. Done.
+Get the last name of the students with brown eyes. Done.
+Get the full name of the oldest student. Done.
+Get the full name of the youngest student. Done.
+Average of grades of all students all courses. Done.
+Average grade of all the students in the HTML course. Done.
+Average grade of all the students in the CSS course. Done.
+Average grade of all the students in the Javascript course. Done.
+Average grade of all the students in the PHP course. Done.
+Average grade of all the students in the Ruby course. Done.
+Average grade of all the students in the Java course. Done.
+Names of the students who have failed a course. Done.
+Ages of the students who have failed a course. Done.
